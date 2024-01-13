@@ -1,3 +1,6 @@
+from funciones.generate_user_agent import generate_user_agent
+import urllib.request
+from bs4 import BeautifulSoup
 def check_url(url):
     result = {'title': '', 'link': url}
     try:
